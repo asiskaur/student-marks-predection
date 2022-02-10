@@ -1,0 +1,28 @@
+Attribute Information:
+
+# Attributes for (Math course) datasets:
+1 school - student's school (binary: 'GP' - Gabriel Pereira or 'MS' - Mousinho da Silveira)
+2 sex - student's sex (binary: 'F' - female or 'M' - male)
+3 age - student's age (numeric: from 15 to 22)
+4 address - student's home address type (binary: 'U' - urban or 'R' - rural)
+5 famsize - family size (binary: 'LE3' - less or equal to 3 or 'GT3' - greater than 3)
+6 guardian - student's guardian (nominal: 'mother', 'father' or 'other')
+7 traveltime - home to school travel time (numeric: 1 - <15 min., 2 - 15 to 30 min., 3 - 30 min. to 1 hour, or 4 - >1 hour)
+8 studytime - weekly study time (numeric: 1 - <2 hours, 2 - 2 to 5 hours, 3 - 5 to 10 hours, or 4 - >10 hours)
+9 failures - number of past class failures (numeric: n if 1<=n<3, else 4)
+10 schoolsup - extra educational support (binary: yes or no)
+11 famsup - family educational support (binary: yes or no)
+12 paid - extra paid classes within the course subject (Math or Portuguese) (binary: yes or no)
+13 activities - extra-curricular activities (binary: yes or no)
+14 nursery - attended nursery school (binary: yes or no)
+15 higher - wants to take higher education (binary: yes or no)
+16 internet - Internet access at home (binary: yes or no)
+17 freetime - free time after school (numeric: from 1 - very low to 5 - very high)
+18 goout - going out with friends (numeric: from 1 - very low to 5 - very high)
+19 health - current health status (numeric: from 1 - very bad to 5 - very good)
+20 absences - number of school absences (numeric: from 0 to 93)
+
+# these grades are related with the course subject, Math or Portuguese:
+21 G1 - first period grade (numeric: from 0 to 20)
+21 G2 - second period grade (numeric: from 0 to 20)
+23 G3 - final grade (numeric: from 0 to 20, output target)
